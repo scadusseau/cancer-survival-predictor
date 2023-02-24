@@ -1,0 +1,134 @@
+Labels:
+
+	Failure_first_ttt
+		0: No
+		1: Yes
+
+	Relapse_after_CR
+		0: No
+		1: Yes
+
+	Primary_response
+		0: CR
+		1: PD
+		2: PR
+		3: SD
+
+	Intitial_global_response
+		0: CR_PR
+		1:
+		2:
+
+clinico-biologic:
+
+	Initial_ttt
+		0: Chemotherapy
+		1: Observation
+		2: Surgery
+	
+	Sex
+		0: F
+		1: M
+
+	Age_months
+		int.00
+
+	Lower_18m
+		0: No
+		1: Yes
+
+	MKI
+		0: High
+		1: Low_Intermediate
+		2: NA
+
+	INPC
+		0: Favorable
+		1: High
+		2: NA
+
+	Genomic_class
+		0: NMYC_A
+		1: Num
+		2: Other
+		3: Segm
+		4: NA
+
+	MYCN
+		0: Ampl
+		1: No_A
+
+	INRGSS
+		0: L1_L2
+		1: M
+		2: MS
+
+	Primitif_compartment
+		0: ABDOMEN
+		1: OTHER
+		2: SURRENALE
+		3: THORAX
+
+	IDRF
+		0: Negative
+		1: Positive
+
+	NRB_sabliers_variantes
+		0: No
+		1: Yes
+
+	M_node
+		0: Distant_nodes
+		1: LR
+		2: No
+
+	M_bone
+		0: No
+		1: Yes
+
+	M_om
+		0: No
+		1: Yes
+	
+	M_liver
+		0: No
+		1: Yes
+
+	MSI_Index
+		0: 0
+		1: 1_2
+		2: 3_4_5
+
+	Subtype
+		0: Differentiating
+		1: Poorly_differentiated
+		2: Undifferentiated
+		3: NA
+
+	Baseline_LDH
+		0: High
+		1: Low
+
+	Baseline_ration_VMA_HVA
+		0: Intermediate
+		1: Low
+		2: NA
+
+	Baseline_risk_group
+		0: High
+		1: Intermediate
+		2: Low_VeryLow
+
+	Post_ttt_siopen
+		
+
+	
+
+radiomics:
+	visual uptake
+		0: Uptake_higher_liver
+		1: Uptake_lower_liver
+
+	visual heterogeneity
+		0: Heterogeneous
+		1: Homogeneous
